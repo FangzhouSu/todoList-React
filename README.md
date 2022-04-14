@@ -1,2 +1,2 @@
 # todoList-React
-A prefect React demo, inspired by todoMVC. 
+A perfect React demo, inspired by todoMVC. 

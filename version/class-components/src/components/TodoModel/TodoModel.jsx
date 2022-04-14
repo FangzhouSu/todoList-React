@@ -20,7 +20,7 @@ export default class TodoModel extends Component {
   // 初始化
   componentDidMount() {
     // 获取缓存的数据
-    const cacheTodos = storage.get("TodoList");
+    const cacheTodos = storage.get("TodoList")||[];
     const currentShift = storage.getParams("shift")
     const isAllDone = cacheTodos.every((todoObj) => 
       todoObj.isActive === false
